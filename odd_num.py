@@ -9,11 +9,11 @@ if num % 2 != 0:
     print(num, "is odd")
 else:
     print(num, "is not odd")
-numbers = [10, 15, 22, 33, 47, 50] # list
+numbers = [10, 15, 22, 33, 47, 50] # list 2
 
 odd_nums = [n for n in numbers if n % 2 != 0]
 print("Odd numbers:", odd_nums)
 numbers = [10, 15, 22, 33, 47, 50]
 
 odd_nums = [n for n in numbers if n % 2 != 0]
-print("Odd numbers:", odd_nums) # print
+print("Odd numbers:", odd_nums) # print nos
